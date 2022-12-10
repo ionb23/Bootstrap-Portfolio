@@ -10,12 +10,13 @@ body {
 }
 
 a {
-  color: #fdcc52;
+  color: rgba(34, 34, 34, 1);
   transition: all .35s;
 }
 
-a:hover, a:focus {
-  color: #fcbd20;
+a:hover,
+a:focus {
+  color: #fcbd20 !important;
 }
 
 hr {
@@ -54,6 +55,10 @@ section h2 {
   font-size: 50px;
 }
 
+.nav-link {
+  color: #fff !important;
+}
+
 header.masthead {
   position: relative;
   padding-top: 50px;
@@ -63,6 +68,11 @@ header.masthead {
   margin-top: 20px;
 }
 
+/*.card.shadow-sm {*/
+.shadow-sm {
+  box-shadow: 0 0.25rem 0.35rem rgba(0, 0, 0, 0.075) !important;
+}
+
 .card-body {
   padding-bottom: 5px;
 }
@@ -70,4 +80,37 @@ header.masthead {
 .skills {
   padding-top: 0px;
   padding-bottom: 20px;
+}
+
+.iconsCustom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconsCustom i {
+  padding: 30px;
+}
+
+a:hover .fa-github:before,
+a:hover .fa-linkedin:before,
+a:hover .fa-envelope:before,
+a:hover .fa-at:before {
+  box-shadow: 0 0.25rem 0.35rem rgba(0, 0, 0, 0.275) !important;
+  border-radius: 0.25rem !important;
+}
+
+.social {
+  border: solid 3px #212529;
+  border-radius: 10px;
+}
+
+.footer {
+  height: 50px;
+}
+
+.footer,
+.footer a {
+  color: #fff;
+  text-decoration: none;
 }
