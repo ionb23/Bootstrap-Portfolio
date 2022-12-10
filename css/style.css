@@ -59,9 +59,21 @@ section h2 {
   color: #fff !important;
 }
 
+.avatar img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 1000px;
+}
+
 header.masthead {
   position: relative;
   padding-top: 50px;
+}
+
+.icon-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -117,9 +129,16 @@ a:hover .fa-at:before {
 
 
 /* No less than 400px, no greater than 900px */
-/*@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 992px) {
 
   .social {
     border: solid 30px #212529;
   }
-}*/
+
+  .aboutMe {
+    margin-top: 30px;
+  }
+  
+}
+
+
