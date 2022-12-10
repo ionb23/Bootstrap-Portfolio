@@ -114,3 +114,12 @@ a:hover .fa-at:before {
   color: #fff;
   text-decoration: none;
 }
+
+
+/* No less than 400px, no greater than 900px */
+/*@media (min-width: 769px) and (max-width: 992px) {
+
+  .social {
+    border: solid 30px #212529;
+  }
+}*/
