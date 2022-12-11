@@ -52,24 +52,32 @@ section {
   padding: 50px 0;
 }
 
-section h2 {
+/* section h2 {
   font-size: 50px;
+} */
+
+.navbar-brand {
+  font-size: 1.75rem;
 }
 
 .nav-link {
   color: #fff !important;
+  font-size: 1.35rem;
 }
 
 .avatar img {
   width: 100%;
   max-width: 400px;
   border-radius: 1000px;
-  margin: 0 auto;
 }
 
 header.masthead {
   position: relative;
   padding-top: 50px;
+}
+
+.skillsBox {
+  padding-left: 0;
 }
 
 .skills {
@@ -90,11 +98,22 @@ header.masthead {
   max-width: 80px;
 }
 
+.myPortfolio {
+  margin-bottom: -5px;
+}
+
 .card {
   margin-top: 20px;
 }
 
-/*.card.shadow-sm {*/
+.card img {
+  object-fit: cover !important;
+  width:100%;
+  height: 30vh;
+  max-height: 250px;
+  min-height: 150px;
+}
+
 .shadow-sm {
   box-shadow: 0 0.25rem 0.35rem rgba(0, 0, 0, 0.075) !important;
 }
@@ -143,7 +162,7 @@ a:hover .fa-at:before {
 
 
 /* No less than 400px, no greater than 900px */
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 0px) and (max-width: 992px) {
 
 /* used to check we are on the right screen width
   .social {
@@ -151,7 +170,19 @@ a:hover .fa-at:before {
   }*/
 
   .aboutMe {
-    margin-top: 40px;
+    margin-top: 30px;
+  }
+
+  .skillsBox {
+    margin-top: 10px;
+  }
+
+  .skills {
+    padding-bottom: 0;
+  }
+
+  .work {
+    padding-top: 10px;
   }
 
 }
