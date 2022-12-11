@@ -45,10 +45,11 @@ p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 section h2 {
@@ -70,10 +71,22 @@ header.masthead {
   padding-top: 50px;
 }
 
+.skills {
+  padding-top: 6px;
+  padding-bottom: 20px;
+}
+
 .icon-item {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
+  width: 60px;
+}
+
+.icon-item img {
+  width: 100%;
+  max-width: 80px;
 }
 
 .card {
@@ -89,9 +102,13 @@ header.masthead {
   padding-bottom: 5px;
 }
 
-.skills {
-  padding-top: 0px;
-  padding-bottom: 20px;
+.contact-section {
+  padding-top: 0;
+}
+
+.social {
+  border: solid 3px #212529;
+  border-radius: 10px;
 }
 
 .iconsCustom {
@@ -108,13 +125,9 @@ a:hover .fa-github:before,
 a:hover .fa-linkedin:before,
 a:hover .fa-envelope:before,
 a:hover .fa-at:before {
-  box-shadow: 0 0.25rem 0.35rem rgba(0, 0, 0, 0.275) !important;
-  border-radius: 0.25rem !important;
-}
-
-.social {
-  border: solid 3px #212529;
-  border-radius: 10px;
+  /*  box-shadow: 0 0.25rem 0.35rem rgba(0, 0, 0, 0.275) !important;
+  border-radius: 0.25rem !important;*/
+  text-shadow: 0 0 10px black;
 }
 
 .footer {
@@ -131,14 +144,13 @@ a:hover .fa-at:before {
 /* No less than 400px, no greater than 900px */
 @media (min-width: 769px) and (max-width: 992px) {
 
+/* used to check we are on the right screen width
   .social {
     border: solid 30px #212529;
-  }
+  }*/
 
   .aboutMe {
-    margin-top: 30px;
+    margin-top: 40px;
   }
-  
+
 }
-
-
