@@ -14,6 +14,7 @@ a {
   transition: all .35s;
 }
 
+/*changes color on link hover*/
 a:hover,
 a:focus {
   color: #fcbd20 !important;
@@ -39,6 +40,10 @@ h6 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
+}
+
+h5 {
+  font-weight: 700;
 }
 
 p {
@@ -122,7 +127,7 @@ header.masthead {
   padding-bottom: 5px;
 }
 
-.contact-section {
+.contact {
   padding-top: 0;
 }
 
@@ -141,6 +146,7 @@ header.masthead {
   padding: 30px;
 }
 
+/*adding hover effects to social icon buttons */
 a:hover .fa-github:before,
 a:hover .fa-linkedin:before,
 a:hover .fa-envelope:before,
@@ -161,15 +167,10 @@ a:hover .fa-at:before {
 }
 
 
-/* No less than 400px, no greater than 900px */
+/* adjusting spacing on small screens */
 @media (min-width: 0px) and (max-width: 992px) {
 
-/* used to check we are on the right screen width
-  .social {
-    border: solid 30px #212529;
-  }*/
-
-  .aboutMe {
+  .about {
     margin-top: 30px;
   }
 
